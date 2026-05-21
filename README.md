@@ -1,31 +1,112 @@
-# Hotel Booking Cancellation Analysis
+# 🏨 Hotel Booking Cancellation Analysis — Python EDA
 
-An end-to-end Python data analysis project identifying key factors behind hotel booking cancellations to provide actionable business insights.
+[![Header](https://capsule-render.vercel.app/api?type=waving&color=0:FFB347,50:FF914D,100:FF6347&height=220&section=header&text=Hotel%20Booking%20Cancellation%20Analysis&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Python%20|%20Pandas%20|%20Matplotlib%20|%20EDA%20|%20Hospitality%20Analytics&descSize=18)](https://github.com/PatlaveetiJabeer786/hotel-booking-analysis)
 
-## 📌 Business Problem
-In recent years, City Hotel and Resort Hotel have seen high cancellation rates. Each cancellation results in lost revenue and less than ideal room use. The goal of this project is to analyze the hotel booking dataset to identify the main variables that affect cancellations and provide data-driven suggestions to reduce them.
+<div align="center">
 
-## 🛠️ Tech Stack
-* **Language:** Python
-* **Libraries:** Pandas, Matplotlib, Seaborn, NumPy, Warnings
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-2E8B57?style=for-the-badge&logo=python&logoColor=white)
+![Domain](https://img.shields.io/badge/Domain-Hospitality%20%26%20Revenue%20Management-FF6347?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
-## 🔍 Key Research Questions
-1. What are the variables that affect hotel reservation cancellations?
-2. How can we predict or reduce the high cancellation rate?
-3. How do pricing and seasonality affect the decision to cancel?
-
-## 💡 Proposed Solutions & Findings
-* **Pricing Strategy:** High Average Daily Rate (ADR) was found to be a primary cause of cancellations. Adjusting dynamic pricing, especially during peak months, can help retain bookings.
-* **Geographical Focus:** Portugal showed the highest number of cancellations. Improving service quality and targeted marketing in this region could mitigate losses.
-* **Discounting for High-Risk Bookings:** Implementing targeted discounts or non-refundable lower rates for travelers booking far in advance to secure commitment.
-
-## 📊 Expected Output
-The project generates several visualizations, including:
-* **Cancellation vs. Non-Cancellation Ratios:** Visualizing the scale of the problem.
-* **Monthly Reservation Trends:** Identifying peak months for both hotels.
-* **ADR vs. Cancellation Correlation:** Proving how price hikes lead to higher cancellation rates.
+</div>
 
 ---
-### 🔗 Professional Links
-* **Portfolio:** [https://jabeer.lovable.app/](https://jabeer.lovable.app/)
-* **GitHub:** [https://github.com/PatlaveetiJabeer786](https://github.com/PatlaveetiJabeer786)
+
+<div align="center">
+
+╔══════════════════════════════════════════════════════════════════════╗
+║   🔴 BUSINESS PROBLEM → ⚙️ ACTION → 📈 RESULT → 💡 BUSINESS IMPACT   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+
+</div>
+
+---
+
+## 🔴 Business Problem  
+
+City Hotel and Resort Hotel have faced **high cancellation rates** in recent years.  
+Each cancellation results in:  
+- ❌ Lost revenue  
+- ❌ Poor room utilization  
+- ❌ Reduced customer satisfaction  
+
+➡️ The goal is to analyze booking data to identify **key drivers of cancellations** and provide actionable strategies to reduce them.
+
+---
+
+## 🎯 Task (My Role as Data Analyst)
+
+| Task | Objective |
+|------|-----------|
+| 🧹 **Data Cleaning** | Handle missing values, fix data types |
+| 📊 **EDA** | Explore cancellation patterns across variables |
+| 🏨 **Hotel Type Analysis** | Compare City vs Resort Hotel cancellations |
+| 📅 **Seasonality** | Identify peak cancellation months |
+| 👥 **Customer Segmentation** | Analyze cancellations by market segment |
+| 📈 **Visualization** | Build charts to communicate insights |
+
+---
+
+## ⚙️ Action (What I Did)
+
+╔══════════════════════════════════════════════════════════════════════╗
+║   🧹 Data Cleaning   |   📊 Exploratory Analysis   |   📈 Visualization ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+
+- 🧹 **Data Cleaning** → Removed nulls, standardized booking dates, fixed categorical values  
+- 📊 **Exploratory Analysis** → Cancellation rates by hotel type, lead time, deposit type, market segment  
+- 📅 **Seasonality Check** → Monthly cancellation trends visualized  
+- 👥 **Segmentation** → Grouped by customer type (transient, group, contract)  
+- 📈 **Visualization** → Heatmaps, bar charts, and line plots for cancellation drivers  
+
+---
+
+## 📈 Results  
+
+- ✅ **Hotel Type** → City Hotel had higher cancellation rates than Resort Hotel  
+- ✅ **Lead Time** → Longer lead times strongly correlated with cancellations  
+- ✅ **Deposit Type** → Non‑refundable deposits reduced cancellations significantly  
+- ✅ **Seasonality** → Peak cancellations occurred during summer months  
+- ✅ **Market Segment** → Online travel agents contributed most cancellations  
+
+---
+
+## 💡 Business Impact  
+
+╔══════════════════════════════════════════════════════════════════════╗
+║   💰 Revenue → Reduce cancellations with deposit policies            ║
+║   🏨 Operations → Improve room utilization with better forecasting   ║
+║   📊 Strategy → Target high‑risk segments with tailored offers       ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+
+---
+
+## 🛠️ Tools & Skills  
+
+- 🐍 **Python**  
+- 🧹 **Pandas** for wrangling  
+- 🎨 **Matplotlib & Seaborn** for visuals  
+- 📊 **EDA & Hospitality Analytics**  
+
+---
+
+## 📂 Repository Contents  
+
+- `Hotel_Booking_Project.ipynb` → Full Python Notebook  
+- `hotel_booking.csv` → Dataset  
+- `hotel_booking_problem_statement.jpeg` → Problem statement reference  
+- `README.md` → Project documentation  
+
+---
+
+## 🚀 How to Run  
+
+```bash
+pip install pandas matplotlib seaborn jupyter
+jupyter notebook Hotel_Booking_Project.ipynb
